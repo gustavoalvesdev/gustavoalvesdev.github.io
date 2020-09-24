@@ -394,4 +394,16 @@ p.copyright {
     .footer-sections section {
         width: 100%;
     }
+
+    .assinatura input[type=email] {
+        width: 100%;
+        max-width: 450px;
+        height: 60px;
+        padding: 5px;
+    }
+    
+    .assinatura button {
+        width: 100%;
+        max-width: 450px;
+    }
 }

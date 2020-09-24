@@ -380,7 +380,8 @@ p.copyright {
     }
 
     .main-content input[type=email] {
-        width: 450px;
+        width: 100%;
+        max-width: 450px;
         height: 60px;
         padding: 5px;
     }

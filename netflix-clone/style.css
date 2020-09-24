@@ -383,4 +383,8 @@ p.copyright {
         height: 60px;
         padding: 5px;
     }
+
+    .box-download {
+        top: 150px;
+    }
 }

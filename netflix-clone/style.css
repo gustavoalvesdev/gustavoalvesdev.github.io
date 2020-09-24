@@ -301,6 +301,7 @@ footer a:hover {
 
 .footer-sections {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
     margin: 0 auto;
@@ -387,5 +388,9 @@ p.copyright {
     .box-download {
         top: 150px;
         left: 0;
+    }
+
+    .footer-sections section {
+        width: 100%;
     }
 }

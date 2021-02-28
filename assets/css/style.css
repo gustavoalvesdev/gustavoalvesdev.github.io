@@ -38,6 +38,10 @@ header .logo h2> span{
     font-size: 50px;
 }
 
+.sobre-header p {
+    margin-bottom: 15px;
+}
+
 section.trabalhos{
     padding:40px 0;
 }
@@ -66,7 +70,7 @@ section.trabalhos > h2{
 }
 
 
-.wraper-descricao{
+.wrapper-descricao{
     width:50%;
     padding:10px 20px;
 }
@@ -238,7 +242,7 @@ footer{
         margin-right: 0;
     }
     .trabalho-img,
-    .wraper-descricao{
+    .wrapper-descricao{
         width:100%;
     }
 }

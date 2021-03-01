@@ -227,11 +227,28 @@ footer{
     color:white;
 }
 
+.whatsapp-btn {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: fixed;
+    bottom: 20;
+    right: 20;
+}
+
+.whatsapp-btn img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1100px) {
 	.box-faq {
 		width: 47%;
 		max-height: 260px;
 	}
+    .whatsapp-btn {
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -244,5 +261,8 @@ footer{
     .trabalho-img,
     .wrapper-descricao{
         width:100%;
+    }
+    .whatsapp-btn {
+        width: 80px;
     }
 }

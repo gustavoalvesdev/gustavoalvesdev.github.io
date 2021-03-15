@@ -117,6 +117,7 @@ Aula começou a partir daqui!
 
 
 section.faq{
+    width: 100%;
     padding:50px 0;
     border-top:1px solid #ccc;
 }
@@ -127,15 +128,14 @@ section.faq{
     box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     float: left;
-    width:22%;
-    min-height: 200px;
+    width:30%;
+    min-height: 180px;
     margin-right: 3%;
     padding:30px 30px;
 }
 
 .box-faq h2{
     font-size: 24px;
-    padding:10px 0;
 }
 
 .box-faq p{

@@ -134,6 +134,10 @@ section.faq{
     padding:30px 30px;
 }
 
+.faq a {
+    color: #333;
+}
+
 .box-faq h2{
     font-size: 24px;
 }
@@ -164,6 +168,10 @@ section.contato > h2{
 .numeros-contato{
     width:50%;
     padding:0 30px;
+}
+
+.numeros-contato a {
+    color: #d6d6d6;
 }
 
 .numeros-contato h3{

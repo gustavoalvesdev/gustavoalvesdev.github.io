@@ -262,10 +262,11 @@ svg:not(:root).svg-inline--fa {
     margin-top: 10px;
     font-style: italic;
     font-weight: lighter;
+    min-height: 170px;
 }
-.card-box-img {
+/*.card-box-img {
     min-height: 250px;
-}
+}*/
 .card-box-single img {
     width: 100%;
 }

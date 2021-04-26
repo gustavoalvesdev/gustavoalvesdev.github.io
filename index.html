@@ -1,144 +1,303 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <title>Gustavo Alves - Desenvolvedor PHP</title>
+    <meta charset="UTF-8" />
+    <title>Gustavo Alves - Desenvolvedor Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gustavo Alves da Silva" />
+    <meta name="description" content="Este é um exemplo fantástico e mangnânimo de um site bem legal feito por Gustavo Alves da Silva" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" />
+    <link rel="stylesheet" href="assets/fonts/css/all.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
 
     <header>
-        <div class="center">
+        <div class="container">
             <div class="logo">
-                <h2>Gustavo<span>Alves</span></h2>
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logotipo da BeeMind" /></a>
             </div>
             <!-- logo -->
-            <div class="sobre-header">
-                <h3>Olá, eu sou</h3>
-                <h1>Gustavo Alves,<br />
-
-                    Dev PHP</h1>
-
-                <p>
-                    Sou formado como técnico em informática pela ETEC Ferraz de Vasconcelos e finalizando minha
-                    graduação em Análise e Desenvolvimento de Sistemas na FATEC Ferraz de Vasconcelos. Desde que tive
-                    contato pela primeira vez com a Web, me apaixonei. Atualmente estou interessado em todos assuntos
-                    que permeiam a web como: segurança, protocolos, desenvolvimento back end e front end, REST, padrões
-                    de projeto e arquitetura de software.
-                </p>
-
-                <p>
-                    Já atuei como estagiário em Desenvolvimento de Sistemas, atuando com sistemas ERP, integração com
-                    meios de pagamento, desenvolvimento e análise de sistemas web, tanto back quanto front end.
-                </p>
-
-                <p>
-                    Atualmente sou desenvolvedor PHP, tendo experiência com frameworks na linguagem, principalmente
-                    Laravel, inclusive com a criação e consumo de APIs REST.
-                </p>
-
-                <p>
-                    Fiz e faço diversos cursos na área de web, principalmente na linguagem PHP, que é meu foco
-                    atualmente.
-                </p>
-
-                <p>
-                    Possuo conhecimentos em front end com HTML5, CSS3 e ReactJS e Bancos de Dados MySQL, PostgreSQL e
-                    MongoDB
-                </p>
-            </div>
-            <!-- sobre-header -->
+            <nav class="menu-desktop">
+                <ul>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-deskop -->
+            <nav class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <ul>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-mobile -->
+            <div class="clear"></div>
         </div>
-        <!-- center -->
+        <!-- container -->
     </header>
-
-    <section class="faq">
-        <div class="center">
-            <h2>Artigos</h2>
-
-            <a href="https://digitalinnovation.one/artigos/union-types-no-php-8" target="_blank">
-                <div class="box-faq">
-                    <h2>Union Types no PHP 8</h2>
-                    <p><em>Neste artigo eu aborto brevemente o uso desta nova feature do PHP versão 8, chamada Union
-                            Types.</em></p>
-                </div>
-                <!-- box-faq -->
+    <section class="main-bg">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="wow bounceInLeft">Especialista em Tecnologia, Design e Marketing!</h2>
+            <p class="wow bounceInLeft">
+                Trabalho a diversos anos na área de tecnologia, marketing e criações gráficas. Sou especialista em gerar resultados e resolver problemas de negócios aliando a tecnologia ao marketing para prover soluções inovadoras que impactam as empresas, seus clientes e colaboradores.
+			</p>
+            <a href="contato.html" class="btn-contato wow bounceInLeft">
+               Entre em Contato 
             </a>
-
-            <a href="https://digitalinnovation.one/artigos/o-que-e-react-native" target="_blank">
-                <div class="box-faq">
-                    <h2>O que é React Native?</h2>
-                    <p><em>Neste artigo eu explico um pouco sobre a tecnologia mobile desenvolvida pelo Facebook, o
-                            React Native.</em></p>
-                </div>
-                <!-- box-faq -->
-            </a>
-
-            <div style="clear:both;"></div>
+            <!-- btn-contato -->
         </div>
+        <!-- container -->
     </section>
-    <!-- faq -->
-    <section class="contato">
-        <h2>Vamos Conversar?</h2>
-        <div class="center">
+    <!-- main-bg -->
+    <section class="diferenciais">
+        <div class="container">
+            <div class="line-text">
+                <div style="width:75px;"></div>
+                <h2>Serviços</h2>
+            </div>
+            <!-- line-text -->
+            <div class="icones-diferenciais">
+                <div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-laptop-code"></i></h2>
+                    <h3>Websites</h3>
+                    <p style="min-height: 90px">
+                        Websites, landing pages, lojas virtuais, portais, páginas de captura e intranets.
+					</p>
+					<a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+                <!-- box-icone-single -->
+                <div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-address-card"></i></h2>
+                    <h3>Sistemas</h3>
+                    <p style="min-height: 90px">
+                        Sistemas comerciais para cadastro de clientes, controle de estoque, gestão de funcionários, ERPs, integração com NF-e (Nota Fiscal Eletrônica).
+					</p>
+					<a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+                <!-- box-icone-single -->
+                <div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-mobile-alt"></i>
+                    </h2>
+                    <h3>Aplicativos</h3>
+                    <p style="min-height: 90px">
+                        Aplicativos de delivery, compras, guias comerciais, catálogos de venda, galeria de fotos, etc
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-tools"></i>
+                    </h2>
+                    <h3>Montagem e Manutenção</h3>
+                    <p style="min-height: 90px">
+                        Montagem de Computadores, Manutenção, Formatação de PC e Notebook, Instalação Windows ou Linux, Instalação de Programas, Backup, Limpeza Geral, Troca de Pasta Térmica
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-wifi"></i>
+                    </h2>
+                    <h3>Redes e Servidores</h3>
+                    <p style="min-height: 90px">
+                        Instalação, Configuração, Manutenção, Dimensionamento, Troubleshooting e Segurança de Redes e Servidores
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-database"></i>
+                    </h2>
+                    <h3>Bancos de Dados e Dashboards</h3>
+                    <p style="min-height: 90px">
+                        Criação, Manutenção e Gestão de Bancos de Dados, Mineração de Dados, Dashboards, Analytics, Demonstrativos, Planilhas etc.
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-server"></i>
+                    </h2>
+                    <h3>Hospedagem</h3>
+                    <p style="min-height: 90px">
+                        Hospedagem e Infraestrutura Compartilhada ou Dedicada para Sistemas, Sites e Aplicativos
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-paint-brush"></i>
+                    </h2>
+                    <h3>Criações Gráficas e Digitais</h3>
+                    <p style="min-height: 90px">
+                        Criação de Artes Para Impressos, Logotipos e Redes Sociais, Cartões de Visita, Folhetos, Banners, Cartazres e Muito Mais...
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+				<div class="box-icone-single wow bounceInDown">
+                    <h2 class="wow rubberBand"><i class="fas fa-search-dollar"></i>
+                    </h2>
+                    <h3>Marketing Digital</h3>
+                    <p style="min-height: 90px">
+                        Anúncios Google, Facebook e Instagram, SEO, Formulários, Google Analytics, Google Meu Negócio, Copywriting, Diagramação de Ebooks, Blogs, Páginas de Venda e Captura
+					</p>
+                    <a href="#" class="btn-mais">Saiba Mais</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- icones-diferenciais -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- diferenciais -->
+    <section class="sobre-equipe">
+        <div class="container">
+            <div class="equipe-container">
+                <div class="line-text">
+                    <div style="width:45px;"></div>
+                    <h2>Equipe</h2>
+                </div>
+                <!-- line-text -->
+                <div class="avatar-box">
+                    <div class="img-avatar" style="background-image:url('aasets/images/perfil.jpg');"></div>
+                    <div class="descricao-avatar">
+                        <h3>Gustavo Alves</h3>
+                        <p>Desenvolvedor Web Full-Stack</p>
+                    </div>
+                    <!-- descricao-avatar -->
+                </div>
+                <!-- avatar-box -->
+            </div>
+            <!-- equipe-container -->
+            <div class="sobre-container">
+                <div class="line-text">
+                    <div style="width:35px;"></div>
+                    <h2>Sobre</h2>
+                </div>
+                <!-- line-text -->
 
-
-            <div class="numeros-contato">
-                <h3>Telefone</h3>
-                <p><a href="https://api.whatsapp.com/send?phone=5511996531308&text=Ol%C3%A1,%20Gustavo.%20Estou%20entrando%20em%20contato%20a%20partir%20do%20seu%20site."
-                        target="_blank">(11) 99653-1308</a></p>
-                <br />
-                <h3>E-mail</h3>
-                <p>gustavo.silva217@fatec.sp.gov.br</p>
-                <br />
-                <h3>Github</h3>
-                <p><a href="https://github.com/gustavoalvesdev" target="_blank">gustavoalvesdev</a>
-                </p>
-                <br />
-                <h3>Linkedin</h3>
-                <p><a href="https://www.linkedin.com/in/gustavo-alves-dev/" target="_blank">gustavoalvesdev</a>
+                <p>
+                    Trabalho a diversos anos na área de tecnologia, marketing e criações gráficas. Sou especialista em gerar resultados e resolver problemas de negócios aliando a tecnologia ao marketing para prover soluções inovadoras que impactam as empresas, seus clientes e colaboradores.
                 </p>
             </div>
-            <!-- numeros-contato -->
-            <div class="form">
-                <form>
-                    <p>Nome</p>
-                    <input type="text" />
-                    <br />
-                    <p>Telefone</p>
-                    <input type="tel" />
-                    <br />
-                    <p>E-mail</p>
-                    <input type="email" />
-                    <br />
-                    <p>Mensagem</p>
-                    <textarea></textarea>
-                    <br />
-                    <br />
-                    <input type="submit" name="acao" value="> Enviar" />
-                </form>
-            </div>
-            <!-- form -->
-
+            <!-- sobre-container -->
         </div>
-        <!-- center -->
+        <!-- container -->
     </section>
-    <!-- contato -->
-    <footer>
-        <p>Todos os direitos reservados!</p>
+    <!-- sobre-equipe -->
+
+    <section class="cards">
+        <div class="container">
+            <div class="line-text">
+                <div style="width:35px;"></div>
+                <h2>Portfólio</h2>
+            </div>
+            <!-- line-text -->
+            <div class="cards-container">
+                <div class="card-box-single wow bounceInUp">
+                    <div class="card-box-img">
+                        <img src="assets/images/portfolio/rm-veiculos.PNG" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Portfólio de Sites</h4>
+                        <p>Portfólio de Criação de Websites, Lojas Virtuais, Páginas de Captura, Blogs, Páginas de Vendas etc.</p>
+                    </div>
+                    <!-- card-box-text- -->
+                    <a class="link-post" href="#"><i class="fas fa-eye"></i> Ver Portfólio</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+                <!-- card-box-single -->
+                <div class="card-box-single wow bounceInUp">
+                    <div class="card-box-img">
+                        <img src="assets/images/blog/vendas.png" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Portfólio de Criações Gráficas</h4>
+                        <p>Portfólio de Artes Gráficas para Impressos, Logotipos, Branding e Artes Digitais</p>
+                    </div>
+                    <!-- card-box-text -->
+                    <a class="link-post" href="#"><i class="fas fa-eye"></i> Ver Portfólio</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+                <!-- card-box-single -->
+                <div class="card-box-single wow bounceInUp">
+                    <div class="card-box-img">
+                        <img src="assets/images/blog/brindes.jpg" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Portfólio de Aplicativos</h4>
+                        <p>Portfólio de Aplicativos para Dispositivos Mòveis (Tablets e Smartphones).</p>
+                    </div>
+                    <!-- card-box-text -->
+                    <a class="link-post" href="#"><i class="fas fa-eye"></i> Ver Portfólio</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+                <!-- card-box-single -->
+            </div>
+            <!-- cards-container -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- cards -->
+    <footer class="footer">
+        <section class="footer-links">
+            <div class="container">
+                <div class="endereco">
+                    <h5>Aonde Estamos</h5>
+                    <p>Rua dos Goivos, 19 - CEP: 08544-100</p>
+                    <p>(11) 99653-1308</p>
+                </div>
+                <!-- endereco -->
+                <div class="links">
+                    <h5>Links Úteis</h5>
+                    <p><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+                </div>
+                <!-- links -->
+                <div class="redes">
+                    <h5>Conecte-se Conosco</h5>
+                    <p><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-instagram"></i></a></p>
+                </div>
+                <!-- redes -->
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-links -->
+        <section class="footer-direitos">
+            <div class="container">
+                <p>Todos os direitos reservados</p>
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-direitos -->
     </footer>
+    <!-- footer -->
+    <script src="assets/fonts/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/menu.js"></script>
 
-    <a class="whatsapp-btn"
-        href="https://api.whatsapp.com/send?phone=5511996531308&text=Olá, Gustavo. Estou entrando em contato a partir do seu site."
-        target="_blank">
-        <img src="images/whats.png" title="Entre em contato comigo pelo WhatsApp" alt="logo do WhatsApp" />
-    </a>
-    <!-- whatsapp-btn -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 100
+        });
+
+        wow.init();
+    </script>
+
 </body>
 
 </html>

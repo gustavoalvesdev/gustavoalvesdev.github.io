@@ -1,276 +1,526 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
-
-header{
-    background-color:#1a1a1a   ;
-    padding:40px 0;
-    min-height: 700px;
-
+body {
+    font-family: "Open Sans", sans-serif;
 }
-
-.center{
-    max-width: 1100px;
+.container {
+    max-width: 1280px;
     margin: 0 auto;
-    padding:0 2%;
+    padding: 0 2%;
 }
-
-header .logo h2{
-    color: white;
+.clear {
+    clear: both;
 }
-
-header .logo h2> span{
-    color:#3f7aff;
+.line-text {
+    display: inline-block;
+    position: relative;
+    color: #fce273;
 }
-
-
-
-.sobre-header{
-    margin-top:100px;
-    color:white;
+.line-text div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 3px;
+    background: #fce273;
 }
-
-.sobre-header h1{
-    margin:20px 0;
-    font-size: 50px;
+.line-text h2 {
+    font-weight: bold;
+    font-size: 27px;
 }
-
-.sobre-header p {
-    margin-bottom: 15px;
+.w20 {
+    width: 20%;
 }
-
-section.trabalhos{
-    padding:40px 0;
+.w50 {
+    width: 50%;
 }
-
-section.trabalhos > h2{
-    text-align: center;
-    color: black;
-    font-size: 30px;
+.w80 {
+    width: 80%;
 }
-
-.trabalho-single{
-    display: flex;
-    padding:40px 0;
-    flex-wrap: wrap;
-}
-
-.trabalho-img{
-    width:50%;
-    padding:50px;
-    background-color:#5e82ff  ;
-}
-
-.trabalho-img img{
-    max-width: 100%;
-    width:100%;
-}
-
-
-.wrapper-descricao{
-    width:50%;
-    padding:10px 20px;
-}
-
-
-/*
-Aula começou a partir daqui!
-*/
-.box-depoimento{
-    padding:8 15px;
-    margin:40px 0;
-    border-radius:8px;
-    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
-}
-
-.box-depoimento p{
-    color: #4d533c;
-    margin:10px 0;
-    font-style: italic;
-    font-size: 16px;
-}
-
-.box-depoimento h2{
-    color:#1b1b1b;
-    font-size: 16px;
-}
-
-.box-depoimento h3{
-    color: #1b1b1b;
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.box-depoimento-user{display: flex;}
-
-.box-depoimento-user img{
-    width:50px;
-    height:50px;
-}
-
-.box-depoimento-nome{
-    padding:8 10px;
-}
-
-
-section.faq{
+.w100 {
     width: 100%;
-    padding:50px 0;
-    border-top:1px solid #ccc;
 }
-
-.box-faq{
-    margin:30px 0;
-    border-radius: 4px;
-    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
-    background-color: #ffffff;
+.wow {
+    visibility: hidden;
+}
+header {
+    padding: 8px 0;
+}
+.logo {
     float: left;
-    width:30%;
-    min-height: 180px;
-    margin-right: 3%;
-    padding:30px 30px;
 }
-
-.faq a {
-    color: #333;
+.menu-desktop {
+    float: right;
 }
-
-.box-faq h2{
-    font-size: 24px;
+.menu-desktop ul {
+    position: relative;
+    top: 20px;
 }
-
-.box-faq p{
-    font-size: 14px;
-    color:rgba(33, 56, 66, 0.6);
-
-
+.menu-desktop li {
+    padding: 0 10px;
+    font-weight: lighter;
+    display: inline-block;
 }
-
-section.contato{
-    width:100%;
-    padding:40px 0;
-}
-
-section.contato .center{
-    display: flex;
-    flex-wrap: wrap;
-    margin:40px auto;
-}
-
-section.contato > h2{
-    text-align: center;
-    color:#1b1b1b;
-}
-
-.numeros-contato{
-    width:50%;
-    padding:0 30px;
-}
-
-.numeros-contato a {
-    color: #d6d6d6;
-}
-
-.numeros-contato h3{
-    font-size: 25px;
-    
-    color:#d6d6d6;
-}
-
-.numeros-contato p{
-    color: rgba(33, 56, 66, 0.6);
-    font-size: 16px;
+.menu-desktop li.selected {
+    font-weight: normal;
     text-decoration: underline;
 }
-
-.form{
-    width:50%;
-    padding:0 20px;
+.menu-desktop a {
+    color: #000;
+    text-decoration: none;
 }
-
-.form p{
-    font-size: 14px;
-    font-weight: bold;
-    color: rgba(33, 56, 66, 0.6) ;
+.menu-desktop a:hover {
+    text-decoration: underline;
 }
-
-.form input[type=text],
-.form input[type=tel],
-.form input[type=email]{
-    width: 100%;
-    height:40px;
-    border-radius: 4px;
-    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.08);
-    border: solid 1px #ededed;
-    background-color: #ffffff;
+.menu-mobile {
+    display: none;
+    float: right;
 }
-
-.form textarea{
-    width: 100%;
-    height:100px;
-    border-radius: 4px;
-    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.08);
-    border: solid 1px #ededed;
-    background-color: #ffffff;
-}
-
-.form input[type=submit]{
-    
-    width:100%;
-    height:30px;
-    color:white;
+.menu-mobile h2 {
     cursor: pointer;
-    border:0;
-    border-radius: 4px;
-    background-color: #5e82ff;
 }
-
-footer{
+.menu-mobile ul {
+    display: none;
+    width: 100%;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 75px;
+    z-index: 999;
     text-align: center;
-    padding:10px 0;
-    background-color:#1a1a1a;
-    color:white;
 }
-
-.whatsapp-btn {
-    width: 120px;
-    height: 120px;
+.menu-mobile li {
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+.menu-mobile .selected {
+    background-color: #e1e1e1;
+}
+.menu-mobile a {
     display: block;
-    position: fixed;
-    bottom: 20;
-    right: 20;
+    color: #000;
+    text-decoration: none;
+}
+svg:not(:root).svg-inline--fa {
+    margin-top: 14px;
+}
+.main-bg {
+    position: relative;
+    width: 100%;
+    padding: 200px 0;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.main-bg > .container {
+    position: relative;
+    z-index: 4;
+}
+.main-bg h2 {
+    color: #ce74ae;
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-bg p {
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.btn-contato {
+    background-color: #007d33;
+    display: inline-block;
+    padding: 15px;
+    font-size: 26px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-contato:hover {
+    background-color: #007d33;
+}
+.diferenciais {
+    padding: 30px 0;
+    text-align: center;
+}
+.icones-diferenciais {
+    margin-top: 30px;
+}
+.box-icone-single {
+    min-height: 280px;
+    float: left;
+    width: 33.3333%;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    margin-bottom: 50px;
+}
+.box-icone-single h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #ce74ae;
+    border-radius: 50px;
 }
 
-.whatsapp-btn img {
-    max-width: 100%;
-    max-height: 100%;
+.btn-mais {
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	background-color: #007D33;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 15px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1100px) {
-	.box-faq {
-		width: 47%;
-		max-height: 260px;
-	}
-    .whatsapp-btn {
-        width: 80px;
-    }
+.btn-mais:hover {
+	text-decoration: underline;
 }
 
-@media screen and (max-width: 768px){
-    .numeros-contato,.form{width:100%;margin-bottom: 30px;}
-    .box-faq{
-        width:100%;
-		max-height: 275px;
-        margin-right: 0;
+.sobre-equipe {
+    padding: 30px 0;
+    background: #9b4f7f;
+    color: white;
+}
+.sobre-equipe > .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.equipe-container {
+    width: 50%;
+}
+.sobre-container {
+    width: 50%;
+}
+.sobre-container p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.img-avatar {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.descricao-avatar {
+    width: calc(100% - 70px);
+    top: 20px;
+    left: 20px;
+    position: relative;
+}
+.descricao-avatar h3 {
+    font-weight: normal;
+}
+.descricao-avatar p {
+    font-style: italic;
+    font-weight: lighter;
+}
+.cards {
+    padding: 30px 0;
+}
+.cards .container {
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.card-box-single {
+    width: 33.3333%;
+    padding: 40px;
+}
+.card-box-single h4 {
+    margin-top: 15px;
+}
+.card-box-single p {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.card-box-img {
+    min-height: 250px;
+}
+.card-box-single img {
+    width: 100%;
+}
+.borda-baixo {
+    border-bottom: 5px solid #ccc;
+    margin-top: 20px;
+}
+.card-box-text {
+    min-height: 130px;
+}
+.link-post {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ce74ae;
+    padding: 8px;
+    border-radius: 8px;
+}
+.link-post:hover {
+    text-decoration: underline;
+    background-color: #9b4f7f;
+}
+.link-post svg {
+    margin-top: 0 !important;
+}
+.footer-links {
+    background-color: #ce74ae;
+    padding: 30px 0;
+    color: #fff;
+    font-weight: lighter;
+}
+.footer-links > .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links > .container div {
+    width: 33.3333%;
+}
+.footer-links h5 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.footer-links p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.footer-links a .fa-facebook-square,
+.footer-links a .fa-instagram {
+    font-size: 25px;
+}
+.footer-direitos {
+    background-color: #9b4f7f;
+    padding: 30px 0;
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+}
+.title-page {
+    padding: 30px;
+    width: 100%;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title-page .container {
+    position: relative;
+    z-index: 101;
+}
+.title-page h2 {
+    color: #fce273;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title-page p {
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.overlay__title-page {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.sobre {
+    padding: 30px 0;
+}
+.sobre .container {
+    text-align: center;
+}
+.sobre__box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.box__image img {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.box__text p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.parallax {
+    padding: 30px 0;
+    width: 100%;
+    min-height: 200px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+.parallax .container {
+    z-index: 101;
+    position: relative;
+}
+.parallax h2 {
+    color: #fce273;
+    font-size: 40px;
+    font-weight: bold;
+}
+.parallax p {
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.parallax__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.container-chamada {
+    margin-bottom: 40px;
+}
+.container-chamada p {
+    text-align: left;
+}
+.contato {
+    padding: 30px 0;
+}
+.contato .container {
+    text-align: center;
+}
+.contato form {
+    max-width: 600px;
+    margin: 50px auto;
+}
+.contato form .input-wrapper:last-child {
+    text-align: center;
+}
+.contato .input-wrapper {
+    float: left;
+    padding: 10px;
+    margin-top: 7px;
+}
+.contato input[type="text"],
+.contato input[type="email"],
+.contato input[type="tel"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+.contato .btn-contato {
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    margin-top: 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .w20 {
+        width: 100%;
     }
-    .trabalho-img,
-    .wrapper-descricao{
-        width:100%;
+    .w50 {
+        width: 100%;
     }
-    .whatsapp-btn {
-        width: 80px;
+    .w80 {
+        width: 100%;
+    }
+    .box-icone-single {
+        width: 100%;
+    }
+    .equipe-container {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .equipe-container h3,
+    .equipe-container p {
+        text-align: left;
+    }
+    .sobre-container {
+        width: 100%;
+        text-align: center;
+    }
+    .sobre-container p {
+        text-align: left;
+    }
+    .frase-newsletter {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .input-newsletter {
+        width: 100%;
+    }
+    .card-box-single {
+        width: 100%;
+    }
+    .footer-links > .container div {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 580px) {
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .main-bg {
+        padding: 100px 2%;
+    }
+    .main-bg h2 {
+        font-size: 30px;
+    }
+    .main-bg p {
+        font-size: 15px;
     }
 }

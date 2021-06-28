@@ -1,324 +1,298 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+        <title>Projeto Portfólio</title>
+    </head>
+    <body>
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Gustavo Alves - Desenvolvedor Web</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Gustavo Alves da Silva" />
-    <meta name="description"
-        content="Este é um exemplo fantástico e mangnânimo de um site bem legal feito por Gustavo Alves da Silva" />
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" />
-    <link rel="stylesheet" href="assets/fonts/css/all.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+        <header>
+            <div class="center">
+            <div class="logo"><h2>Gustavo<span>Alves</span></h2></div>
 
-<body>
+            <div class="sobre-header">
+                <h3>Olá, eu sou</h3>
+                <h1>Gustavo Alves,<br/>
+                
+                Full-Stack Developer</h1>
 
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="assets/images/logo.png" alt="Logotipo da BeeMind" /></a>
+                <p>Sou um desenvolvedor focado em projetos independentes, nas horas vagas gosto de estudar música e ler. Veja mais sobre meus projetos abaixo.</p>
             </div>
-            <!-- logo -->
-            <nav class="menu-desktop">
-                <ul>
-                    <li class="selected"><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-            <!-- menu-deskop -->
-            <nav class="menu-mobile">
-                <h2><i class="fa fa-bars"></i></h2>
-                <ul>
-                    <li class="selected"><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-            <!-- menu-mobile -->
-            <div class="clear"></div>
-        </div>
-        <!-- container -->
-    </header>
-    <section class="main-bg">
-        <div class="overlay"></div>
-        <div class="container">
-            <h2 class="wow bounceInLeft">Especialista em Tecnologia, Design e Marketing!</h2>
-            <p class="wow bounceInLeft">
-                Trabalho a diversos anos na área de tecnologia, marketing e criações gráficas. Sou especialista em gerar
-                resultados e resolver problemas de negócios aliando a tecnologia ao marketing para prover soluções
-                inovadoras que impactam as empresas, seus clientes e colaboradores.
-            </p>
-            <a href="contato.html" class="btn-contato wow bounceInLeft">
-                Entre em Contato
-            </a>
-            <!-- btn-contato -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- main-bg -->
-    <section class="diferenciais">
-        <div class="container">
-            <div class="line-text">
-                <div style="width:75px;"></div>
-                <h2>Serviços</h2>
             </div>
-            <!-- line-text -->
-            <div class="icones-diferenciais">
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-laptop-code"></i></h2>
-                    <h3>Websites</h3>
-                    <p style="min-height: 90px">
-                        Websites, landing pages, lojas virtuais, portais, páginas de captura e intranets.
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <!-- box-icone-single -->
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-address-card"></i></h2>
-                    <h3>Sistemas</h3>
-                    <p style="min-height: 90px">
-                        Sistemas comerciais para cadastro de clientes, controle de estoque, gestão de funcionários,
-                        ERPs, integração com NF-e (Nota Fiscal Eletrônica).
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <!-- box-icone-single -->
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-mobile-alt"></i>
-                    </h2>
-                    <h3>Aplicativos</h3>
-                    <p style="min-height: 90px">
-                        Aplicativos de delivery, compras, guias comerciais, catálogos de venda, galeria de fotos, etc
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-tools"></i>
-                    </h2>
-                    <h3>Montagem e Manutenção</h3>
-                    <p style="min-height: 90px">
-                        Montagem de Computadores, Manutenção, Formatação de PC e Notebook, Instalação Windows ou Linux,
-                        Instalação de Programas, Backup, Limpeza Geral, Troca de Pasta Térmica
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-wifi"></i>
-                    </h2>
-                    <h3>Redes e Servidores</h3>
-                    <p style="min-height: 90px">
-                        Instalação, Configuração, Manutenção, Dimensionamento, Troubleshooting e Segurança de Redes e
-                        Servidores
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-database"></i>
-                    </h2>
-                    <h3>Bancos de Dados e Dashboards</h3>
-                    <p style="min-height: 90px">
-                        Criação, Manutenção e Gestão de Bancos de Dados, Mineração de Dados, Dashboards, Analytics,
-                        Demonstrativos, Planilhas etc.
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-server"></i>
-                    </h2>
-                    <h3>Hospedagem</h3>
-                    <p style="min-height: 90px">
-                        Hospedagem e Infraestrutura Compartilhada ou Dedicada para Sistemas, Sites e Aplicativos
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-paint-brush"></i>
-                    </h2>
-                    <h3>Criações Gráficas e Digitais</h3>
-                    <p style="min-height: 90px">
-                        Criação de Artes Para Impressos, Logotipos e Redes Sociais, Cartões de Visita, Folhetos,
-                        Banners, Cartazres e Muito Mais...
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="box-icone-single wow bounceInDown">
-                    <h2 class="wow rubberBand"><i class="fas fa-search-dollar"></i>
-                    </h2>
-                    <h3>Marketing Digital</h3>
-                    <p style="min-height: 90px">
-                        Anúncios Google, Facebook e Instagram, SEO, Formulários, Google Analytics, Google Meu Negócio,
-                        Copywriting, Diagramação de Ebooks, Blogs, Páginas de Venda e Captura
-                    </p>
-                    <a href="#" class="btn-mais">Saiba Mais</a>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <!-- icones-diferenciais -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- diferenciais -->
-    <section class="sobre-equipe">
-        <div class="container">
-            <div class="equipe-container">
-                <div class="line-text">
-                    <div style="width:45px;"></div>
-                    <h2>Equipe</h2>
-                </div>
-                <!-- line-text -->
-                <div class="avatar-box">
-                    <div class="img-avatar" style="background-image:url('aasets/images/perfil.jpg');"></div>
-                    <div class="descricao-avatar">
-                        <h3>Gustavo Alves</h3>
-                        <p>Desenvolvedor Web Full-Stack</p>
-                    </div>
-                    <!-- descricao-avatar -->
-                </div>
-                <!-- avatar-box -->
-            </div>
-            <!-- equipe-container -->
-            <div class="sobre-container">
-                <div class="line-text">
-                    <div style="width:35px;"></div>
-                    <h2>Sobre</h2>
-                </div>
-                <!-- line-text -->
+        </header>
 
-                <p>
-                    Trabalho a diversos anos na área de tecnologia, marketing e criações gráficas. Sou especialista em
-                    gerar resultados e resolver problemas de negócios aliando a tecnologia ao marketing para prover
-                    soluções inovadoras que impactam as empresas, seus clientes e colaboradores.
-                </p>
-            </div>
-            <!-- sobre-container -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- sobre-equipe -->
+        <section class="trabalhos">
+            <h2>Portifólio</h2>
+            <div class="center">
 
-    <section class="cards">
-        <div class="container">
-            <div class="line-text">
-                <div style="width:35px;"></div>
-                <h2>Portfólio</h2>
+                <div class="trabalho-single">
+
+                    <div class="trabalho-img">
+                        <!--img-->
+                        <img src="images/mockup-macbook.png" />
+                    </div>
+
+                    <div class="wraper-descricao">
+                    <div class="trabalho-descricao">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare erat eu semper mollis. Ut suscipit sem vitae efficitur posuere. Nunc a eleifend diam. Nam massa leo, vulputate nec ex vel.</p>
+                    </div>
+
+                    <div class="box-depoimento">
+                        <p>“Extremamente profissional, o projeto ficou incrível e completamente dentro das nossas expectativas. Agradecemos profundamente ao Guilherme e sua equipe pelo sucesso."</p>
+                        <div class="box-depoimento-user">
+                            <img src="images/users.png" />
+                            <div class="box-depoimento-nome">
+                                <h2>Luiza</h2>
+                                <h3>CEO do Google</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+                <div class="trabalho-single">
+
+                   
+
+                    <div class="wraper-descricao">
+                    <div class="trabalho-descricao">
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare erat eu semper mollis. Ut suscipit sem vitae efficitur posuere. Nunc a eleifend diam. Nam massa leo, vulputate nec ex vel.</p>
+                    </div>
+
+                    <div class="box-depoimento">
+                        <p>“Extremamente profissional, o projeto ficou incrível e completamente dentro das nossas expectativas. Agradecemos profundamente ao Guilherme e sua equipe pelo sucesso."</p>
+                        <div class="box-depoimento-user">
+                            <img src="images/users.png" />
+                            <div class="box-depoimento-nome">
+                                <h2>Luiza</h2>
+                                <h3>CEO do Google</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="trabalho-img">
+                        <!--img-->
+                        <img src="images/mockup-macbook.png" />
+                    </div>
+                </div>
             </div>
-            <!-- line-text -->
-            <div class="cards-container">
-                <div class="card-box-single wow bounceInUp">
-                    <div class="card-box-img">
-                        <img src="assets/images/portfolio/portfolio.png" />
-                    </div>
-                    <!-- card-box-img -->
-                    <div class="card-box-text">
-                        <h4>Meu Portfólio</h4>
-                        <p>Este é o meu site de portfólio. Foi construído do zero utilizando HTML, CSS e JavaScript. O
-                            layout do site também foi desenvolvido por mim. O site é responsivo e se adapta a todos os
-                            tamanhos de tela.</p>
-                    </div>
-                    <!-- card-box-text- -->
-                    <a class="link-post" href="https://gustavoalvesdev.com.br" target="_blank"><i
-                            class="fas fa-eye"></i> Ver Projeto</a>
-                    <div class="clear"></div>
-                    <div class="borda-baixo"></div>
+        </section>
+
+        <section class="faq">
+            <div class="center">
+                <h1 style="margin-bottom: 40px">Minhas Habilidades</h1>
+				
+				<h2>Front End</h2>
+				
+                <div class="box-faq" style="text-align: center">
+                    <img src="images/html_icon2.jpg">
                 </div>
-                <!-- card-box-single -->
-                <div class="card-box-single wow bounceInUp">
-                    <div class="card-box-img">
-                        <img src="assets/images/portfolio/focosp.png" />
-                    </div>
-                    <!-- card-box-img -->
-                    <div class="card-box-text">
-                        <h4>Website FocoSP</h4>
-                        <p>Desenvolvimento do Layout e Codificação do site da FocoSP. O projeto foi feito quando eu
-                            trabalhava como estagiário em programação para esta empresa. O site foi feito com HTML5,
-                            CSS3, JavaScript e o framework Bootstrap. Ele possui uma integração com o ERP Oracle
-                            NetSuite na parte de marketplace.</p>
-                    </div>
-                    <!-- card-box-text -->
-                    <a class="link-post" href="http://focosp.com/" target="_blank"><i class="fas fa-eye"></i> Ver
-                        Projeto</a>
-                    <div class="clear"></div>
-                    <div class="borda-baixo"></div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/css_icon.jpg">
                 </div>
-                <!-- card-box-single -->
-                <div class="card-box-single wow bounceInUp">
-                    <div class="card-box-img">
-                        <img src="assets/images/portfolio/kami.png" />
-                    </div>
-                    <!-- card-box-img -->
-                    <div class="card-box-text">
-                        <h4>Website Kami Comunicação</h4>
-                        <p>Desenvolvimento do site da empresa Kami Comunicação Visual, utilizando HTML5, CSS3,
-                            JavasScript e jQuery. O layout também foi feito por mim.</p>
-                    </div>
-                    <!-- card-box-text -->
-                    <a class="link-post" href="https://kamicomunicacao.github.io/" target="_blank"><i
-                            class="fas fa-eye"></i> Ver Projeto</a>
-                    <div class="clear"></div>
-                    <div class="borda-baixo"></div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/sass.png" style="height: 128px">
                 </div>
-                <!-- card-box-single -->
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/less.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/js_icon.jpg">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/typescript.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/gulp.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/webpack.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/vue.jpg" style="height: 128px; margin-left: -20px;">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/angular.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/react.png" style="width: 180px;">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/redux.png" style="width: 180px;">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/nextjs.png" style="width: 180px;">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/eletron.png" style="height: 128px;">
+                </div>
+
+				<h2 style="width:100%; display: block; float: none; clear: both;">Back End</h2>
+				
+                <div class="box-faq" style="text-align: center">
+                    <img src="images/node.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/php7.jpg">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/wordpress.png" style="width: 120px; margin-top: 10%; transform: translateY(-10%)">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/python.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/java.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/csharp.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/firebase.png" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/webrtc.jpg" style="height: 128px; margin-left: -25px;">
+                </div>
+				
+				<h2 style="width:100%; display: block; float: none; clear: both;">Design</h2>
+				
+                <div class="box-faq" style="text-align: center">
+                    <img src="images/photoshop_icon.jpg" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/responsivo.jpg" style="height: 128px; margin-left: -8px;">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/uiux_icon.jpg" style="margin-top: 40%; transform: translateY(-40%)">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/xd.jpg" style="height: 128px">
+                </div>
+                
+				
+				<h2 style="width:100%; display: block; float: none; clear: both;">Mobile</h2>
+				
+                <div class="box-faq" style="text-align: center">
+                    <img src="images/android.jpg" style="width: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/Apple.png" style="width: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/flutter.png" style="width: 128px">
+                </div>
+                
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/react-native.png" style="width: 128px">
+                </div>
+				
+				<h2 style="width:100%; display: block; float: none; clear: both;">Infraestrutura Web</h2>
+				
+                <div class="box-faq" style="text-align: center">
+                    <img src="images/apache.jpg" style="width: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/nginx.jpg" style="height: 128px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/graphql.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/git.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/linux.jpg" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/dominio.png" style="width: 120px">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/docker.png" style="width: 120px; margin-top: 20%; transform: translateY(-20%)">
+                </div>
+				
+				<div class="box-faq" style="text-align: center">
+                    <img src="images/aws.jpg" style="width: 90px; margin-top: 50%; transform: translateY(-50%)">
+                </div>
+				
+                <div style="clear:both;"></div>
             </div>
-            <!-- cards-container -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- cards -->
-    <footer class="footer">
-        <section class="footer-links">
-            <div class="container">
-                <div class="endereco">
-                    <h5>Aonde Estamos</h5>
-                    <p>Rua dos Goivos, 19 - CEP: 08544-100</p>
+        </section>
+
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+            <div class="center">
+                
+
+                <div class="numeros-contato">
+                    <h3>Telefone</h3>
                     <p>(11) 99653-1308</p>
+                    <br/>
+					<h3>LinkedIn</h3>
+                    <p>https://www.linkedin.com/in/gustavo-alves-dev/</p>
+                    <br/>
                 </div>
-                <!-- endereco -->
-                <div class="links">
-                    <h5>Links Úteis</h5>
-                    <p><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+
+                <div class="form">
+                    <form>
+                        <p>Nome</p>
+                        <input type="text" />
+                        <br/>
+                        <p>Telefone</p>
+                        <input type="text" />
+                        <br/>
+                        <p>Mensagem</p>
+                        <textarea></textarea>
+                        <br/>
+                        <br/>
+                        <input type="submit" name="acao" value="> Enviar" />
+                    </form>
                 </div>
-                <!-- links -->
-                <div class="redes">
-                    <h5>Conecte-se Conosco</h5>
-                    <p><a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i
-                                class="fab fa-instagram"></i></a></p>
-                </div>
-                <!-- redes -->
+
+
             </div>
-            <!-- container -->
         </section>
-        <!-- footer-links -->
-        <section class="footer-direitos">
-            <div class="container">
-                <p>Todos os direitos reservados</p>
-            </div>
-            <!-- container -->
-        </section>
-        <!-- footer-direitos -->
-    </footer>
-    <!-- footer -->
-    <script src="assets/fonts/js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="assets/js/menu.js"></script>
 
-    <script src="assets/js/wow.min.js"></script>
-    <script>
-        wow = new WOW({
-            boxClass: 'wow',
-            animateClass: 'animated',
-            offset: 100
-        });
+        <footer>
+            <p>Todos os direitos reservados!</p>
+        </footer>
 
-        wow.init();
-    </script>
-
-</body>
-
+    </body>
 </html>

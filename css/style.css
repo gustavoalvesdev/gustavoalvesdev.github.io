@@ -113,7 +113,7 @@ section.main .overlay {
 
 .chamada1{
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 150px;
 	position: relative;
 }
 
@@ -568,6 +568,10 @@ footer p:nth-of-type(2){
 
 @media screen and (max-width: 768px){
 	
+	.chamada1 {
+		padding-top: 75px;
+	}
+	
 	nav.menu-desktop{
 		display: none;
 	}
@@ -636,6 +640,19 @@ footer p:nth-of-type(2){
 }
 
 @media screen and (max-width: 580px){
+	
+	.chamada1 {
+		padding-top: 150px;
+	}
+
+	.chamada1 h2 {
+		font-size: 30px;
+	}
+	
+	.chamada1 p {
+		font-size: 20px;
+	}
+	
 	.part1{
 		width: 100%;
 		padding:40px 0;

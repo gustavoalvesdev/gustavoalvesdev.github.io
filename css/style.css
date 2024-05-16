@@ -134,7 +134,6 @@ section.sessao1{
 	width: 100%;
 	background-color: #003a7d;
 	padding:30px 2%;
-	height: 400px;
 }
 
 section.sessao1 .container{
@@ -143,8 +142,9 @@ section.sessao1 .container{
 }
 
 .texto-sessao1{
-	width: 50%;
+	width: 100%;
 	color: white;
+	text-align: center;
 }
 
 .texto-sessao1 h2{
@@ -154,13 +154,15 @@ section.sessao1 .container{
 
 .texto-sessao1 p{
 	margin-top:20px;
-	font-size: 15px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 .texto-sessao1 ul{
 	font-size: 15px;
-	list-style-position: outside;
+	list-style: none;
 	padding-left: 15px;
+	margin-bottom: 20px;
 }
 
 .texto-sessao1 ul li{
@@ -178,6 +180,7 @@ section.sessao1 .container{
 	border-radius: 20px;
 	display: inline-block;
 	padding: 10px 15px;
+	width: 300px;
 }
 
 .device-sessao1{

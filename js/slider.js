@@ -3,7 +3,7 @@ $('section.clientes-slider .slider-container').slick({
 		arrows:false,
 	    infinite: true,
 	    speed:1000,
-	    slidesToShow: 4,
+	    slidesToShow: 1,
 	    autoplay: true,
 	    centerMode:false,
 	    autoplaySpeed: 3000,
@@ -13,7 +13,7 @@ $('section.clientes-slider .slider-container').slick({
 	    {
 	      breakpoint: 768,
 	      settings: {
-	        slidesToShow: 2
+	        slidesToShow: 1
 	      }
 	    }
 	    ]

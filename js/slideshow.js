@@ -58,4 +58,4 @@ function updateBullets() {
 window.addEventListener('resize', updateSliderDimensions);
 window.addEventListener('load', updateSliderDimensions);
 
-setInterval(goNext, 2000);
+setInterval(goNext, 7000);

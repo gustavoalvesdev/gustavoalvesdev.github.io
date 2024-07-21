@@ -5,6 +5,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.1/css/all.min.css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slideshow.css">
 	<meta charset="utf-8" />
 	<meta name="description" content="Sistema de Gestão Simplificado - Simplifique a gestão do seu negócio e ganhe tempo nas tarefas diárias.">
 	<meta name="keywords" content="Sistema de gestão empresarial, ERP, automação comercial, software de gestão, sistema de controle financeiro, sistema de controle de estoque, sistema de vendas, sistema de faturamento, sistema de emissão de NF-e, sistema de emissão de NFC-e, gestão de condomínios, gestão de autoescolas, gestão de estacionamentos, portal imobiliário, dashboard empresarial, sistema de PDV, gestão empresarial integrada, soluções de gestão empresarial, software de ERP, sistema de automação fiscal">
@@ -58,19 +60,41 @@
       <!--container-->
     </header>
 
-<section class="main">
-	<div class="overlay"></div>
-	<!-- overlay -->
-	<div class="container">
-		<div class="chamada1">
-			<h2>Sistema de Gestão Simplificado</h2>
-			<p>Simplifique a gestão do seu negócio e ganhe tempo nas tarefas diárias.</p>
-		</div><!--chamada1-->
-	</div>
-	<!-- container -->
-</section>
-<!-- main -->
-
+	<section class="slider">
+        <div class="slider--controls">
+            <div class="slider--control" onclick="goPrev()">◀</div>
+            <div class="slider--control" onclick="goNext()">▶</div>
+        </div>
+        <div class="slider--width">
+            <div class="slider--item" style="background-image: url('imagens/capa.png');">
+                <div class="overlay"></div>
+                <div class="slider--text">
+                    <h2>Sistema de Gestão Simplificado</h2>
+                    <p>Simplifique a gestão do seu negócio e ganhe tempo nas tarefas diárias.</p>
+                </div>
+            </div>
+            <div class="slider--item" style="background-image: url('imagens/slideshow/2.jpg');">
+                <div class="overlay"></div>
+                <div class="slider--text">
+                    <h2>Aproveite a Prancha</h2>
+                    <p>Esta é mais uma frase</p>
+                </div>
+            </div>
+            <div class="slider--item" style="background-image: url('imagens/slideshow/3.jpg');">
+                <div class="overlay"></div>
+                <div class="slider--text">
+                    <h2>Pegue Onda</h2>
+                    <p>Que está aqui só de exemplo</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider--bullets">
+            <div class="slider--bullet" onclick="selectSlide(0)"></div>
+            <div class="slider--bullet" onclick="selectSlide(1)"></div>
+            <div class="slider--bullet" onclick="selectSlide(2)"></div>
+        </div>
+    </section>
+	
 
 <section class="sessao1" id="servicos">
 	<div class="container">
@@ -164,5 +188,6 @@
 <script src="js/slick.min.js"></script>
 <script src="js/slider.js"></script>
 <script src="lgpd/lgpd.js"></script>
+<script src="js/slideshow.js"></script>
 </body>
 </html>

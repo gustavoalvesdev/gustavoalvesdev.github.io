@@ -230,6 +230,49 @@ header.header  > .container {
 	background-color: #F46024;
 }
 
+.contato {
+	background-color: #FCB605;
+	padding: 40px 0;
+	color: #fff;
+	text-align: center;
+}
+
+.contato .container h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+.contato .container p {
+	font-size: 18px;
+}
+
+.btn-contato {
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px 15px;
+	margin-top: 15px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #F46024;
+	border-radius: 10px;
+}
+
+.btn-contato:hover {
+	background-color: #ccc;
+}
+
+.footer {
+	text-align: center;
+	background-color: #F46024;
+	color: #fff;
+	padding: 25px 0;
+}
+
+
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 973px) {
 	.funcionalidade-single {
 		width: 50%;
@@ -255,5 +298,19 @@ header.header  > .container {
 
 	.planos-wrapper {
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	header.header  {
+		height: 150px;
+	}
+	header.header  > .container {
+		flex-direction: column;
+	}
+
+	.desktop-menu {
+		margin-top: 25px;
+		margin-bottom: 10px;
 	}
 }

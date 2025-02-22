@@ -169,29 +169,46 @@ svg:not(:root).svg-inline--fa {
     padding: 30px 0;
     text-align: center;
 }
+
+.diferenciais h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
 .icones-diferenciais {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+/* TODO: Box single icone */
+.icone-wrapper {
+    font-size: 2rem;
+    background-color: #2BAEFF;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+
 .box-icone-single {
-    min-height: 280px;
-    float: left;
-    width: 33.3333%;
-    border-left: 20px solid #fff;
-    border-right: 20px solid #fff;
-    margin-bottom: 0;
+    display: flex;
+    width: 33.333%;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column; 
+    margin-bottom: 30px;
 }
-.box-icone-single h2 {
-    margin-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    display: inline-block;
-    padding: 20px;
-    width: 100px;
-    height: 100px;
-    background-color: var(--light-color);
-    border-radius: 50px;
+
+.box-icone-single p {
+    font-size: 1rem;
 }
+
 .sobre-equipe {
     padding: 30px 0;
     background: var(--main-color);

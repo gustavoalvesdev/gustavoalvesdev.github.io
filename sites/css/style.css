@@ -1,0 +1,315 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(54, 81, 156, 0.9);
+}
+
+.clear {
+	clear: both;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.header-warning {
+	background-color: #E8F205;
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.header-banner {
+	position: relative;
+	background-image: url('../images/bg.jpg');
+	height: 80vh;
+	display: flex;
+	align-items: center;
+}
+
+.banner-wrapper {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.banner-wrapper h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.banner-wrapper h1 strong {
+	font-weight: 400;
+}
+
+.header-separator {
+	margin: 40px auto;
+	background-color: #FBED10;
+	width: 100px;
+	height: 3px;
+}
+
+.header-separator--larger {
+	width: 200px;
+}
+
+.header-separator--blue {
+	background-color: #1E91E4;
+}
+
+.banner-wrapper p {
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.cta-whatsapp {
+	display: inline-block;
+	background-color: #2ECC38;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.cta-whatsapp--blue {
+	background-color: #1E91E4;
+}
+
+.cta-whatsapp--blue:hover {
+	background-color: #2ECC38;
+}
+
+.how-it-works {
+	padding: 120px 0;
+}
+
+.how-it-works--gray {
+	background-color: #F8F9FA;
+}
+
+.container-wrapper {
+	display: flex;
+}
+
+.header-image {
+	padding: 0 40px;
+}
+
+.header-image img {
+	max-width: 100%;
+}
+
+.title-upper-line {
+	width: 100px;
+	margin-bottom: 15px;
+	height: 5px;
+	background-color: #1D6BB8;
+}
+
+.header-text h2 {
+	font-size: 35px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.header-text p {
+	font-weight: bold;
+	color: #7A7A7A;
+	line-height: 1.8rem;
+	margin-bottom: 35px;
+}
+
+.functionalities-list {
+	padding-top: 85px;
+}
+
+.func-header {
+	text-align: center;
+}
+
+.func-header h2 {
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 1.8rem;
+}
+
+.func-list-items {
+	padding: 30px 0;
+}
+
+.func-row {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.func-item {
+	display: flex;
+	text-align: left;
+}
+
+.func-item-image {
+	padding: 30px;
+}
+
+.func-item-text {
+	padding: 40px 0;
+}
+
+.func-item-text h3 {
+	font-size: 25px;
+	color: #2E48CC;
+	margin-bottom: 20px;
+}
+
+.promotion-banner {
+	padding: 70px 0;
+}
+
+.price-info {
+	background-color: #1E53B6;
+	border: 1px solid #1E53B6;
+	padding: 40px 0;
+	text-align: center;
+	color: white;
+}
+
+.price-info h2 {
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.price-info p {
+	font-weight: bold;
+	padding: 15px 0;
+	font-size: 18px;
+}
+
+.payment-info {
+	border: 1px solid #1E53B6;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.payment-info img {
+	max-width: 100%;
+}
+
+.portfolio {
+	padding: 50px 0;
+}
+
+.item-wrapper {
+	padding: 20px;
+}
+
+.portfolio-item {
+	height: 350px;
+	background-position: left top;
+	background-size: cover;
+	animation-name: anima_out;
+	animation-duration: 0.5s;
+}
+
+.portfolio-item:hover {
+	animation-name: anima_bg;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes anima_bg {
+	from {background-position: left top;}
+	to {background-position: left bottom;}
+}
+
+@keyframes anima_out {
+	from {background-position: left bottom;}
+	to {background-position: left top;}
+}
+
+.footer-cta {
+	position: relative;
+	background-image: url('../images/bg2.jpg');
+	padding: 85px 0;
+}
+
+.footer-cta .overlay {
+	background-color: rgba(5, 38, 94, 0.9);
+}
+
+.footer-wrapper {
+	position: relative;
+	color: white;
+	text-align: center;
+}
+
+.footer-wrapper h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.footer-wrapper p {
+	margin-bottom: 40px;
+	font-size: 22px;
+}
+
+.footer {
+	background-color: #11213E;
+	padding: 20px 0;
+	text-align: center;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.w50 {
+		width: 100%;
+	}
+	
+	.func-row {
+		flex-direction: column;
+	}
+	.item-wrapper {
+		width: 100%!important;
+	}
+	
+	.container-wrapper {
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.container-wrapper .cta-whatsapp {
+		margin-bottom: 30px;
+	}
+	
+	.container-wrapper .title-upper-line {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.header-banner {
+		height: 100vh;
+	}
+}

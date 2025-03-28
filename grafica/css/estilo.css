@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+a{
+	text-decoration: none;
+}
+
+.center{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear{clear: both;}
+
+
+header{
+	background: #5e3ea1;
+	padding: 10px 0;
+}
+
+header > .center{
+	display: flex;
+}
+
+.logo{
+	width: 50%;
+}
+
+.logo a {
+	color: white;
+	font-size: 21px;
+}
+
+.menu{
+	text-align: right;
+	width: 50%;
+}
+
+.menu ul{list-style-type: none;}
+.menu li{
+	margin-right: 10px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.menu a{
+	color: white;
+}
+
+section.texto-chamada{
+	background: #4c3282;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+section.texto-chamada i{
+	font-size: 40px;
+}
+section.texto-chamada h2,
+section.texto-chamada h3{
+	font-weight: normal;
+}
+
+section.texto-chamada h2 > b{
+	color: rgb(231, 66, 107);
+}
+
+
+section.loja{
+	padding: 30px 0;
+}
+
+
+section.loja > .center{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.loja-wraper{
+	width: 33.3%;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.box-single-loja{
+	height: 100%;
+	border: 1px solid rgb(225,225,225);
+}
+
+.box-single-loja img{
+	max-width: 100%;
+}
+
+.box-single-loja h2{
+	text-align: center;
+	padding:0 8px;
+	font-weight: normal;
+}
+
+.box-single-loja p{
+	padding:15px 8px;
+	font-size: 15px;
+	color: rgb(10,10,10);
+}
+
+.loja-wraper a{
+	color: white;
+	background: #5fb382;
+	padding: 10px 8px;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.loja-wraper a:hover {
+	background: #377e55;
+}
+
+
+section.novidades{
+	padding: 30px 0;
+}
+
+/*Elementos do Boot CSS*/
+
+.text-right{text-align: right;}
+
+.w50{
+	float: left;
+	width: 50%;
+	padding: 0 15px;
+}
+
+.w50 h1{
+	margin-bottom: 15px;
+	font-size: 26px;
+	font-weight: normal;
+	color: #4b4b4b;
+}
+
+.box-single-noticia{
+	padding: 20px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+.box-single-noticia h2{
+	font-size: 21px;
+	font-weight: bold;
+	color: rgb(100,100,100);
+}
+.box-single-noticia p{
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(110,110,110);
+}
+
+.depoimentos ul{
+	list-style-position: inside;
+}
+
+.depoimentos li{
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: rgb(110,110,110);
+}
+
+footer{
+	padding: 20px 0;
+	background: #3c2e58;
+	color: white;
+}
+
+.imoveis-busca {
+	margin-top: 30px;
+	border-radius: 30px;
+	padding: 15px 0;
+	background-color: #fff;
+	
+}
+
+.imoveis-busca h2 {
+	color: #4C3282;
+	font-weight: bold!important;
+	margin-bottom: 20px;
+}
+
+.imoveis-busca label {
+
+	color: #888;
+}
+
+.imoveis-busca--wrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.imoveis-busca--wrapper-2 {
+	align-items: flex-start;
+}
+
+.w25 {
+	width: 25%;
+	float: left;
+	
+}
+
+.imoveis-busca--single select {
+	width: 80%;
+	padding: 5px;
+	border-radius: 8px;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.imoveis-busca--single input {
+	width: 80%;
+	padding: 5px;
+	border-radius: 8px;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.imoveis-busca--single input[type=submit] {
+	margin-top: 27px;
+	background-color: #E7426B;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	border: 0;
+	cursor: pointer;
+}
+
+.imoveis-busca--single input[type=submit]:hover {
+	background-color: #b72245;
+}
+
+
+.texto-chamada-verde {
+	background-color: #1BF2A5!important;
+	color: #29557B!important;	
+}
+
+.texto-chamada-verde h2 {
+	margin: 20px 0;
+	font-weight: 700!important;
+}
+    
+.loja h2 {
+	text-align: center;
+	padding: 40px 0;
+	font-size: 30px;
+}
+
+.whats-container {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
+}
+.whats-container img {
+	max-width: 100%;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #E73F75;
+}
+
+.whats-container {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
+}
+.whats-container img {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.loja-wraper{
+		width: 100%;
+		max-width: 500px;
+		padding: 20px;
+		margin:30px auto;
+	}
+
+	.w50{
+		width: 100%;margin-bottom: 30px;
+	}
+	.w25 {
+		width: 100%;
+	}
+}

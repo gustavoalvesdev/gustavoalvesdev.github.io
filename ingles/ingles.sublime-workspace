@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"result",
+				"result_usuarios"
+			],
+			[
+				"nivei",
+				"niveis_acesso_id"
+			],
+			[
+				"simplex",
+				"simplexml_load_file()"
+			],
+			[
+				"array_w",
+				"array_walk_recursive()"
+			],
+			[
+				"simple",
+				"simplexml_load_file()"
+			],
+			[
+				"getEle",
+				"getElementById"
+			],
+			[
+				"getelem",
+				"getElementsByName"
+			],
+			[
+				"els",
+				"elseif"
+			],
+			[
+				"spl_autoload",
+				"spl_autoload_register()"
+			],
+			[
+				"call_user_f",
+				"call_user_func_array()"
+			],
+			[
+				"curren",
+				"currentAction"
+			],
+			[
+				"met",
+				"method_exists()"
+			],
+			[
+				"cr",
+				"currentController"
+			],
+			[
+				"db",
+				"dbname"
+			],
+			[
+				"rg",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/pesquisa_check/index.php",
+		"/C/Users/gusta/Downloads/pesquisar-com-campo-checkbox/celke.sql",
+		"/C/xampp/htdocs/b7crud/BANCO_DE_DADOS.sql",
+		"/C/xampp/htdocs/b7crud/config.php",
+		"/C/xampp/htdocs/b7crud/.htaccess",
+		"/C/xampp/htdocs/b7crud/routers.php",
+		"/C/xampp/htdocs/gs7digital/page_parts/banner.php",
+		"/C/Users/gusta/Desktop/gustavoalvesdev.github.io/.git/COMMIT_EDITMSG",
+		"/C/Users/gusta/Downloads/projeto_01_completo/Projeto_01_servidor/classes/Painel.php",
+		"/C/Users/gusta/Downloads/projeto_01_completo/Projeto_01_servidor/painel/pages/cadastrar-categorias.php",
+		"/C/Users/gusta/Downloads/projeto_01_completo/Projeto_01_servidor/painel/pages/editar-categoria.php",
+		"/C/xampp/htdocs/pesquisa_check/conexao.php",
+		"/C/Users/gusta/Downloads/pesquisar-com-campo-checkbox/conexao.php",
+		"/C/xampp/htdocs/dashboard2/menu.php",
+		"/C/xampp/htdocs/dashboard2/rodape.php",
+		"/C/xampp/htdocs/dashboard2/formularioCategoria.php",
+		"/C/Users/gusta/Downloads/curso-portal-imobiliario-com-php-completo-e-gratuito/4 - PDO/config.php",
+		"/C/xampp/htdocs/imobi_all/Connections/config.php",
+		"/C/xampp/htdocs/imobi_all/index.php",
+		"/C/xampp/htdocs/imobi_all/admin/index.php",
+		"/C/xampp/htdocs/imobi_all/Connections/painel_config.php",
+		"/C/xampp/htdocs/dashboard2/index.php",
+		"/C/xampp/htdocs/sistema_escolar_php/private/core/config.php",
+		"/C/Users/gusta/Downloads/formularioCategoria/formularioCategoria.php",
+		"/C/xampp/htdocs/leitura_avancada/conexao.php",
+		"/C/xampp/htdocs/gs7/DBENV.php",
+		"/C/xampp/htdocs/gs7/config.php",
+		"/C/xampp/htdocs/gs7/.htaccess",
+		"/C/Users/gusta/Downloads/bd_imobiliaria.sql",
+		"/C/xampp/htdocs/leitura_avancada/js/custom.js",
+		"/C/xampp/htdocs/leitura_avancada/listar.php",
+		"/C/xampp/htdocs/leitura_avancada/index.php",
+		"/C/xampp/htdocs/leitura_avancada/arquivo.xml",
+		"/C/xampp/htdocs/Projeto_01/config.php",
+		"/C/xampp/htdocs/Projeto_01/index.php",
+		"/C/xampp/htdocs/Projeto_01/.htaccess",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/03/JQuery/index.html",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/03/JQuery/css/style.css",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/02/JQuery/js/functions.js",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/02/JQuery/index.html",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/01/JQuery/js/functions.js",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/01/JQuery/css/style.css",
+		"/C/xampp/htdocs/jquery/danki/introducao/01/css/style.css",
+		"/C/Users/gusta/Downloads/modulos jquery/modulos jquery/introduzindo jquery/01/JQuery/index.html",
+		"/C/xampp/htdocs/portfolio/mirror-fashion/index.html",
+		"/C/xampp/htdocs/portfolio/mirror-fashion/sobre.html",
+		"/C/Users/gusta/Downloads/projeto_front20_end_final/projeto_front_end_final/index.html",
+		"/C/Users/gusta/Downloads/projeto_front20_end_final/projeto_front_end_final/style.css",
+		"/C/xampp/htdocs/portfolio/mirror-fashion/produtos.html",
+		"/C/xampp/htdocs/jquery/aula_jquery_ajax/index.html",
+		"/C/xampp/htdocs/jquery/aula_jquery_ajax/js/main.js",
+		"/C/xampp/htdocs/site-app/index.html",
+		"/C/xampp/htdocs/site-app/assets/css/style.css",
+		"/C/xampp/htdocs/nova_loja/config.php",
+		"/C/xampp/htdocs/nova_loja/controllers/langController.php",
+		"/C/xampp/htdocs/nova_loja/lang/en.ini",
+		"/C/xampp/htdocs/nova_loja/views/template.php",
+		"/C/xampp/htdocs/nova_loja/views/home.php",
+		"/C/xampp/htdocs/nova_loja/lang/pt-br.ini",
+		"/C/xampp/htdocs/nova_loja/controllers/homeController.php",
+		"/C/xampp/htdocs/nova_loja/core/Language.php",
+		"/C/xampp/htdocs/nova_loja/core/Controller.php",
+		"/C/xampp/htdocs/nova_loja/nova_loja.sublime-project",
+		"/C/xampp/htdocs/nova_loja/core/Model.php",
+		"/C/xampp/htdocs/nova_loja/controllers/notFoundController.php",
+		"/C/xampp/htdocs/nova_loja/views/404.php",
+		"/C/xampp/htdocs/nova_loja/index.php",
+		"/C/xampp/htdocs/nova_loja/core/Core.php",
+		"/C/xampp/htdocs/nova_loja/.htaccess",
+		"/C/xampp/htdocs/nova_loja/environment.php",
+		"/C/xampp/htdocs/gs7digital/config.php",
+		"/C/xampp/htdocs/gs7digital/pages/home.php",
+		"/C/xampp/htdocs/gs7digital/modal-exemplo/iindex.html",
+		"/C/xampp/htdocs/gs7digital/index.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"traffic",
+			"Since last month",
+			"Core",
+			"end nav",
+			"channel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ingles.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

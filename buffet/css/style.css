@@ -16,6 +16,10 @@
     background-color: #ff8b06;
 }
 
+#carouselExampleIndicators {
+    color: orange;
+}
+
 .sobre-buffet {
     background-color: #ff8b06!important;
     color: #fff;
@@ -47,4 +51,16 @@
 footer.bg-dark {
     background-color: #ff8b06!important;
     font-size: 18px;
+}
+
+.whats-container {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
+}
+.whats-container img {
+	max-width: 100%;
 }

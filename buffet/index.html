@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 5 Starter</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html"><img src="images/logo.png" alt="logotipo do buffer"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <img src="./images/hamburger.png" class="hamburger-icon" alt="Hamburger icon">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Fotos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/teste.png" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/teste2.png" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/teste3.png" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+  
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+  
+  
+
+  <!-- Main Content -->
+  <div class="container-fluid py-5 sobre-buffet">
+    <div class="text-center container">
+      <h1 class="mb-3">Buffet Pirulim Kids</h1>
+      <p class="lead">Buffet Pirulim Kids a mais de 6 anos no mercado foi projetado para realizar festas infantis e oferecer muita diversão para crianças e adultos em um ambiente amplo, onde-se pode desfrutar de momentos especiais e agradáveis junto da família e dos amigos. Com uma equipe de profissionais especializados, cardápio diferenciado com produtos de qualidade. O Pirulim está também sempre atento a todos os detalhes, incluindo a limpeza do local, organização, decoração e sempre recebendo a todos com muito carinho e dedicação, tudo para que sua festa seja inesquecível!!!!!
+        Venha conferir tudo isso de perto e fazer parte desta grande festa.........
+        Esperamos por você!!!!!!!</p>
+      
+    </div>
+  </div>
+
+  <div class="container-fluid py-5 servicos">
+    <div class="container">
+
+        <div class="row g-4">
+      
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img src="./images/equipe.png" class="card-img-top" alt="Imagem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Equipe</h5>
+                <p class="card-text">Equipe treinada para garantir a diversão da criançada!</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img src="./images/atracoes.png" class="card-img-top" alt="Imagem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Atrações</h5>
+                <p class="card-text pb-4">Diversos brinquedos para todas as idades.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="card card-hover">
+              <img src="./images/cardapio.png" class="card-img-top" alt="Imagem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cardápio</h5>
+                <p class="card-text">Deliciosas opções muito saborosas para você e seus convidados!</p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Pitulim Kids. Desenvolvido por Gustavo Alves</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./lgpd/lgpd.js"></script>
+
+  <div class="whats-container">
+		<a href="https://wa.me/5511996531308" target="_blank" class="whats-link"><img class="whats-logo" src="./images/whats.png"></a>
+		<!-- whats-link -->
+	</div>
+	<!-- whats-container -->
+</body>
+</html>

@@ -1,137 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Projeto 01</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="center">
-                <img src="images/logo.png">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Dev i9 - Desenvolvimento de Sites, Sistemas e Aplicativos Customizados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gustavo Alves da Silva" />
+    <meta name="description" content="Soluções em desenvolvimento de aplicativos, sites e sistemas. Seu negócio estará em um outro patamar e receberá destaque perante a concorrência. Atendimento qualificado e diferenciado, focado nas suas necessidades." />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logotipo da BeeMind" /></a>
             </div>
-            <!-- center -->
+            <!-- logo -->
+            <nav class="menu-desktop">
+                <ul>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-deskop -->
+            <nav class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <ul>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- menu-mobile -->
+            <div class="clear"></div>
         </div>
-        <!-- header -->
-
-        <div class="container-banner">
-            <div class="center">
-
-                <div class="container-list">
-                    <ul>
-                        <li>Lorem ipsum silot dommor amet</li>
-                        <li>Lorem ipsum silot dommor amet</li>
-                        <li>Lorem ipsum silot dommor amet</li>
-                        <li>Lorem ipsum silot dommor amet</li>
-                    </ul>
-                </div>
-                <!-- container-list -->
-
-                <div class="form">
-                    <h2>Preencha o formulário e inicie a sua caminhada para virar um webmaster!</h2>
-                    <form>
-                        <div class="input-container">
-                            <span>Nome*</span>
-                            <input type="text" name="nome" >
-                        </div>
-                        <!-- input-container -->
-                        <div class="input-container">
-                            <span>E-mail*</span>
-                            <input type="text" name="email" >
-                        </div>
-                        <!-- input-container -->
-                        <div class="input-container">
-                            <span>Telefone*</span>
-                            <input type="tel" name="telefone" >
-                        </div>
-                        <!-- input-container -->
-
-                        <p class="warning">* Campos obrigatórios</p>
-                        <!-- warning -->
-                        
-                        <div class="input-submit-container">
-                            <input type="submit" name="acao" value="Enviar!">
-                        </div>
-                        <!-- input-submit-container -->
-                    </form>
-                </div>  
-                <!-- form -->
-            </div>
-            <!-- center -->
+        <!-- container -->
+    </header>
+    <section class="main-bg">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Desenvolvedor Web</h2>
+            <p>
+                Soluções em criação e implementação de websites, sistemas de gerenciamento e aplicativos, além de consultoria em desenvolvimento de software. Focado em pequenas e médias empresas
+			</p>
+            <a target="_blank" href="https://wa.me/5511996531308" class="btn-contato">
+               ENTRE EM CONTATO
+            </a>
+            <!-- btn-contato -->
         </div>
-        <!-- container-banner -->
-
-        <div class="container-2">
-            <div class="center">
-                <h2>Lorem Ipsum</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat beatae illum possimus dolorem, corporis pariatur saepe doloribus accusantium eligendi nemo odit recusandae. Aut nisi nobis provident, deleniti delectus libero! Reprehenderit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat beatae illum possimus dolorem, corporis pariatur saepe doloribus accusantium eligendi nemo odit recusandae. Aut nisi nobis provident, deleniti delectus libero! Reprehenderit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat beatae illum possimus dolorem, corporis pariatur saepe doloribus accusantium eligendi nemo odit recusandae. Aut nisi nobis provident, deleniti delectus libero! Reprehenderit.
-                </p>
+        <!-- container -->
+    </section>
+    <!-- main-bg -->
+    <section class="diferenciais">
+        <div class="container">
+            <div>
+     
+                <h2>Diferenciais</h2>
+                <p>Conheça algumas características que estão inclusas de forma GRATUITA em todos os projetos que desenvolvemos</p>
             </div>
-            <!-- center -->
-             <div class="arrow"></div>
-             <!-- arrow -->
-        </div>  
-        <!-- container-2 -->
+            <!-- line-text -->
+            <div class="icones-diferenciais" id="services">
 
-        <div class="section-1">
-            <h2>Aprenda com quem está no mercado!</h2>
-            <div class="center">
-                <div class="container-section">
-                
-                    <div class="container-single">
-                        <div><img src="images/icon.png" alt="Computador Roxo"></div>
-                        <div class="text-container-single">
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed et dolorem corrupti est ipsum aperiam, expedita architecto iste ducimus tempora autem. Eos at, amet deserunt dolores laboriosam neque sit incidunt?
-                            </p>
-                        </div>
-                        <!-- text-container-single -->
+                <div class="box-icone-single">
+                    <div class="icone-wrapper">
+                        <i class="fa-solid fa-globe"></i>
                     </div>
-                    <!-- container-single -->
-                    <div class="container-single">
-                        <div><img src="images/icon.png" alt="Computador Roxo"></div>
-                        <div class="text-container-single">
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed et dolorem corrupti est ipsum aperiam, expedita architecto iste ducimus tempora autem. Eos at, amet deserunt dolores laboriosam neque sit incidunt?
-                            </p>
-                        </div>
-                        <!-- text-container-single -->
-                    </div>
-                    <!-- container-single -->
-                    <div class="container-single">
-                        <div><img src="images/icon.png" alt="Computador Roxo"></div>
-                        <div class="text-container-single">
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed et dolorem corrupti est ipsum aperiam, expedita architecto iste ducimus tempora autem. Eos at, amet deserunt dolores laboriosam neque sit incidunt?
-                            </p>
-                        </div>
-                        <!-- text-container-single -->
-                    </div>
-                    <!-- container-single -->
-                
+                    <h3>Responsividade</h3>
+                    <p>Seu site,sistema ou aplicativo apresentável e funcionando nos mais diferentes tamanhos de tela e navegadores.</p>
                 </div>
-                <!-- container-section -->
+                <!-- box-icone-single -->
+
+                <div class="box-icone-single">
+                    <div class="icone-wrapper">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Satisfação Garantida</h3>
+                    <p>Oferecemos a GARANTIA de satisfação para nossos clientes. Você receberá exatamente o projeto contratado com quantas revisões forem necessárias!</p>
+                </div>
+                <!-- box-icone-single -->
+				
+                <div class="box-icone-single">
+                    <div class="icone-wrapper">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Segurança em primeiro lugar</h3>
+                    <p>Não se satisfaça com um sistema frágil. Nós protegemos as informações de seus clientes e arquivos de todo seu sistema.</p>
+                </div>
+                <!-- box-icone-single -->
+
+                <div class="box-icone-single">
+                    <div class="icone-wrapper">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Desenvolvimento sob medida</h3>
+                    <p>Entendemos que cada cliente é único e por isso não compartilhamos recursos entre projetos. Tenha um sistema desenvolvido sob medida para o seu negócio.</p>
+                </div>
+                <!-- box-icone-single -->
+
                 <div class="clear"></div>
-                <!-- clear -->
             </div>
-            <!-- center -->
+            <!-- icones-diferenciais -->
         </div>
-        <!-- section-1 -->
+        <!-- container -->
+    </section>
+    <!-- diferenciais -->
 
-        <div class="footer">
-            <p>Todos os direitos reservados</p>
-            <p>Av. Lorem Ipsum, silor domor 211 - Florianópolis SC</p>
+    <section class="sobre-equipe">
+        <div class="container">
+            <div class="equipe-container">
+                <div class="line-text">
+                    <div style="width:45px;"></div>
+                    <h2>Equipe</h2>
+                </div>
+                <!-- line-text -->
+                <div class="avatar-box">
+                    <div class="img-avatar" style="background-image:url('assets/images/perfil.jpg');"></div>
+                    <div class="descricao-avatar">
+                        <h3>Gustavo Alves</h3>
+                        <p>Analista de Sistemas</p>
+                    </div>
+                    <!-- descricao-avatar -->
+                </div>
+                <!-- avatar-box -->
+            </div>
+            <!-- equipe-container -->
+            <div class="sobre-container" id="about">
+                <div class="line-text">
+                    <div style="width:35px;"></div>
+                    <h2>Sobre</h2>
+                </div>
+                <!-- line-text -->
+
+                <p>
+					Executei projetos em diversas tecnologias para a web, tais como: PHP, NodeJS, ReactJS, Python Django, Microsoft .NET Core, e Java Spring Boot. Também possuo experiência em desenvolvimento de soluções Oracle SuiteScript para a plataforma ERP Oracle NetSuite.
+				</p>
+                <p><a style="color: #36df79" href="sobre.html#sobre_texto">Saiba mais</a></p>
+            </div>
+            <!-- sobre-container -->
         </div>
-        <!-- footer -->
-		
-		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-		<script src="js/script.js"></script>
-    </body>
+        <!-- container -->
+    </section>
+    <!-- sobre-equipe -->
+
+    <section class="cards">
+        <div class="container">
+            <div class="line-text">
+                <div style="width:35px;"></div>
+                <h2>Portfólio</h2>
+            </div>
+            <div class="cards-container">
+				<div class="card-box-single">
+                    <div class="card-box-img">
+                        <img src="assets/images/portfolio/medina.png" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Site Institucional Medina Senior</h4>
+                        <p>Site Medina Senior. O objetivo foi entregar uma presença digital moderna, clara e funcional, voltada para a área de cuidados domiciliares e serviços de saúde.</p>
+                    </div>
+                    <!-- card-box-text- -->
+                    <a class="link-post" href="https://darkcyan-woodcock-139418.hostingersite.com" target="_blank"><i class="fas fa-eye"></i> Ver Projeto</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+				<!-- card-box-single -->
+                <div class="card-box-single">
+                    <div class="card-box-img">
+                        <img src="assets/images/portfolio/home.jpg" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Landing Page Home Contábil</h4>
+                        <p>Landing Page da Home Contábil, contabilidade especializada em negócios digitais</p>
+                    </div>
+                    <!-- card-box-text- -->
+                    <a class="link-post" href="https://homecontabil.com/" target="_blank"><i class="fas fa-eye"></i> Ver Projeto</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+				<!-- card-box-single -->
+                <div class="card-box-single">
+                    <div class="card-box-img">
+                        <img src="assets/images/portfolio/anastacia.jpg" />
+                    </div>
+                    <!-- card-box-img -->
+                    <div class="card-box-text">
+                        <h4>Site Institucional Anastasia Estética</h4>
+                        <p>Site Institucional para a empresa Anastasia Estética, Unindo tecnologia e ciência a serviço da sua beleza</p>
+                    </div>
+                    <!-- card-box-text- -->
+                    <a class="link-post" href="https://anastasiaestetica.com.br/" target="_blank"><i class="fas fa-eye"></i> Ver Projeto</a>
+                    <div class="clear"></div>
+                    <div class="borda-baixo"></div>
+                </div>
+				<!-- card-box-single -->
+                <div class="card-box-single">
+                <div class="card-box-img">
+                    <img src="assets/images/portfolio/amorejoias.jpg" />
+                </div>
+                <!-- card-box-img -->
+                <div class="card-box-text">
+                    <h4>Loja Virtual Amorel Semi Joias</h4>
+                    <p>Loja Virtual completa com Integração com Meios de Pagamento e Frete</p>
+                </div>
+                <!-- card-box-text- -->
+                <a class="link-post" href="https://amoreljoias.com.br/" target="_blank"><i class="fas fa-eye"></i> Ver Projeto</a>
+                <div class="clear"></div>
+                <div class="borda-baixo"></div>
+            </div>
+            <!-- card-box-single -->
+
+            </div>
+            <!-- cards-container -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- cards -->
+
+    <footer class="footer">
+        <section class="footer-links">
+            <div class="container">
+                <div class="endereco">
+                    <h5>Aonde Estamos</h5>
+                    <p>São Paulo - SP</p>
+                    <p>(11) 99653-1308</p>
+                </div>
+                <!-- endereco -->
+                <div class="links">
+                    <h5>Links Úteis</h5>
+                    <p><a href="https://wa.me/5511996531308" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+                </div>
+                <!-- links -->
+                <div class="redes">
+                    <h5>Conecte-se Conosco</h5>
+                    <p><a href="https://www.linkedin.com/in/gustavo-alves-dev-php/" target="_blank"><i class="fab fa-linkedin"></i></a><a href="https://www.instagram.com/gusttavoalvess/" target="_blank"><i class="fab fa-instagram"></i></a></p>
+                </div>
+                <!-- redes -->
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-links -->
+        <section class="footer-direitos">
+            <div class="container">
+                <p>Todos os direitos reservados</p>
+            </div>
+            <!-- container -->
+        </section>
+        <!-- footer-direitos -->
+    </footer>
+    <!-- footer -->
+	
+	<div class="whats-container">
+		<a href="https://wa.me/5511996531308" target="_blank" class="whats-link"><img class="whats-logo" src="./assets/images/whats.png"></a>
+		<!-- whats-link -->
+	</div>
+	<!-- whats-container -->
+
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/fonts/js/all.js"></script>
+    <script src="assets/js/menu.js"></script>
+	<script src="lgpd/lgpd.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #FFF9AF!important;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    color: #666;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #fff;
+    background-color: #ff8b06;
+}
+
+#carouselExampleIndicators {
+    color: orange;
+}
+
+.sobre-buffet {
+    background-color: #ff8b06!important;
+    color: #fff;
+}
+
+.hamburger-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.servicos {
+    background-color: #FFF9AF!important;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-title {
+    color: #ff8b06;
+}
+
+footer.bg-dark {
+    background-color: #ff8b06!important;
+    font-size: 18px;
+}
+
+.whats-container {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
+}
+.whats-container img {
+	max-width: 100%;
+}
